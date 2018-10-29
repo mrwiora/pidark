@@ -13,6 +13,19 @@ what in this case is the same as "pilight-send -p techlico_switch -i 16128 -u 2 
 
 In case you want the raw-code for your device already supported in pilight, just start the server in debug mode and copy/paste your raw code
 
+Installation
+---------------
+
+In case of an empty system please install the following packages:
+```
+sudo apt-get install python3 python3-venv python3-pip
+```
+
+In each case (e.g. running this application on the system you are running Home Assistant):
+```
+pip3 install -r requirements.txt
+```
+
 Checklist
 ---------------
 Basic:
